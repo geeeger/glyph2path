@@ -1,0 +1,29 @@
+{
+  "name": "@geeeger/glyph2path",
+  "version": "1.0.0",
+  "description": "自用，把iconfont中的资源拆出来用的工具",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geeeger/glyph2path.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "geeeger <lph1988520@sina.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^8.1.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  }
+}
